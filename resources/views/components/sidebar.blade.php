@@ -1,10 +1,10 @@
 <div class="main-sidebar sidebar-style-2">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="index.html">Stisla</a>
+            <a href="/home">Makmur Sembako</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
-            <a href="index.html">St</a>
+            <a href="/home">MK</a>
         </div>
         <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
@@ -19,6 +19,18 @@
                 <ul class="dropdown-menu">
                     <li class=''>
                         <a class="nav-link" href="{{ route('users.index') }}">Users</a>
+                    </li>
+
+                </ul>
+                <ul class="dropdown-menu">
+                    <li class=''>
+                        <a class="nav-link" href="{{ route('products.index') }}">Products</a>
+                    </li>
+
+                </ul>
+                <ul class="dropdown-menu">
+                    <li class=''>
+                        <a class="nav-link" href="{{ route('categories.index') }}">Category</a>
                     </li>
 
                 </ul>
